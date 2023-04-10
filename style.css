@@ -1,15 +1,6 @@
-*{
-    margin:12px;
-}
-body{
-    background-color:white;
-}
-header{
-
-    display: flex;
-    justify-content: end;
-}
-
-.box-instagram,.box-twitter{
-    justify-content: center;
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
 }
