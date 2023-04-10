@@ -9,4 +9,5 @@ First : creating 7 boxes using normal div... inside a div
     <div class="box box6">  Six..</div>
     <div class="box box7">  Seven..</div>
 </div>
-    
+
+Second:: Transforming all to flex 
