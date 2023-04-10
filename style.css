@@ -1,6 +1,33 @@
-.box{
-    background-color: aquamarine;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 10px;
+.container{
+    display: grid;
+    grid-template: 100px auto 100px /  10fr 90fr;
+    grid-template-areas: "header header"  "navbar main" "footer footer";
+
+
+    border: 3px lightgrey solid;
+    
+    height: 100vh;
+    gap: 4px;
+ 
+}
+
+.box{ background-color:
+     green;
+}
+
+.box-brand{
+    grid-area: header;
+}
+.box-work{
+    grid-area: navbar;
+
+}
+
+.box-about{
+    grid-area: main;
+}
+
+
+.box-contact{
+    grid-area: footer ;
 }
